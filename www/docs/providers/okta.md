@@ -9,8 +9,6 @@ title: Okta
 
 ## App Configuration
 
-
-
 ## Usage
 
 ```js

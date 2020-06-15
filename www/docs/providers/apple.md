@@ -115,7 +115,6 @@ Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "127.0.0.1`tdev.e
 
 #### Create certificate
 
-
 Creating a certificate for localhost is easy with openssl . Just put the following command in the terminal. The output will be two files: localhost.key and localhost.crt.
 
 ```bash
@@ -142,9 +141,7 @@ Add environment variable `OPENSSL_CONF=C:/Program Files/Git/mingw64/ssl/openssl.
 
 Create directory `certificates` and place `localhost.key` and `localhost.crt`
 
-
 You can create a `server.js` in the root of your project and run it with `node server.js` to test Sign in with Apple integration locally:
-
 
 ```js
 const { createServer } = require('https')

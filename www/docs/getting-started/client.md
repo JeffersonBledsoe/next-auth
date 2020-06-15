@@ -41,7 +41,7 @@ export default () => {
 * Server Side: **Yes**
 
 NextAuth.js also provides a `getSession()` method which can be called client or server side to return a session.
- 
+
 It calls `/api/auth/session` and returns a promise with a session object, or null if no session exists.
 
 A session object looks like this:
@@ -220,7 +220,7 @@ Using the supplied React `<Provider>` allows instances of `useSession()` to shar
 This improves performance, reduces network calls and avoids page flicker when rendering.
 
 It is highly recommended and can be easily added to all pages in Next.js apps by using `/pages/_app.js`.
- 
+
 ```jsx title="/pages/_app.js"
 import { Provider } from 'next-auth/client'
 

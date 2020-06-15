@@ -171,7 +171,6 @@ See the [Email provider documentation](/providers/email) for more information on
 The email provider requires a database, it cannot be used without one.
 :::
 
-
 ## Sign in with Credentials
 
 The Credentials provider allows you to handle signing in with arbitrary credentials, such as a username and password, two factor authentication or hardware device (e.g. YubiKey U2F / FIDO).

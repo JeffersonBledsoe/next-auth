@@ -17,7 +17,6 @@ On initial sign in, a **Verification Token** is sent to the email address provid
 
 If someone provides the email address of an *existing account* when signin in, an email is sent and they are signed into the account associated with that email address when they follow the link in the email.
 
-
 :::tip
 The Email Provider can be used with both JSON Web Tokens and database sessions, but you **must** configure a database to use it. It is not possible to enable email sign in without using a database.
 :::

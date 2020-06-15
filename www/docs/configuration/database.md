@@ -136,7 +136,6 @@ Install module:
 database: 'mongodb://username:password@127.0.0.1:3306/database_name?synchronize=true'
 ```
 
-
 ## Unsupported databases
 
 The following additional databases are supported by TypeORM (which the default adapter uses) and *may* work with NextAuth.js but have not been tested:

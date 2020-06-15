@@ -273,7 +273,6 @@ Set debug to `true` to enable debug messages for authenticaiton and database ope
 
 ## Advanced Options
 
-
 :::warning
 Advanced options are passed the same way as basic options, but may have complex implications or side effects. You should try to avoid using advanced options unless you are very comfortable using them.
 :::

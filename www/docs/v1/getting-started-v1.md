@@ -160,7 +160,6 @@ You can copy over the following configuration files into the root of your projec
 * [next-auth.functions.js](https://github.com/iaincollins/next-auth/tree/master/example/next-auth.functions.js)
 * [next-auth.providers.js](https://github.com/iaincollins/next-auth/tree/master/example/next-auth.providers.js)
 
-
 You can also add a **.env** file to the root of the project as a place to specify configuration options. The provided example files for NextAuth will use one if there is is one.
 
 ````
