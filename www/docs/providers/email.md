@@ -31,6 +31,7 @@ The Email Provider can be used with both JSON Web Tokens and database sessions, 
   2.1 **Using a connection string**
 
   Create an .env file to the root of your project and add the connection string and email address.
+
   ```js title=".env" {1}
 	EMAIL_SERVER=smtp://username:password@smtp.example.com:587
 	EMAIL_FROM=noreply@example.com
@@ -58,6 +59,7 @@ The Email Provider can be used with both JSON Web Tokens and database sessions, 
 	EMAIL_SERVER_PORT=587
 	EMAIL_FROM=noreply@example.com
   ```
+
   Now you can add the provider settings to the NextAuth options object in the Email Provider.
 
   ```js title="/pages/api/auth/[...nextauth].js"
@@ -75,6 +77,7 @@ The Email Provider can be used with both JSON Web Tokens and database sessions, 
     }),
   ],
   ```
+
 3. You can now sign in with an email address at `/api/auth/signin`.
 
   An account will not be created for the user until the first time they verify their email address. If an email address already assoicated with an account, the user will be signed in to that account when they use the link in the email.

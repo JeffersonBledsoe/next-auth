@@ -38,13 +38,17 @@ NextAuth.js is designed to work with any OAuth service, it supports OAuth 1.0, 1
 1. Register your application at the developer portal of your provider. There are links above to the developer docs for most supported providers with details on how to register your application.
 
 2. The redirect URI should follow this format:
+
   ```
   [origin]/api/auth/callback/[provider]
   ```
+
   For example, Twitter on `localhost` this would be:
+
   ```
   http://localhost:3000/api/auth/callback/twitter
   ```
+
 3. Create a `.env` file at the root of your project and add the client ID and client secret. For Twitter this would be:
 
   ```
@@ -103,6 +107,7 @@ As an example of what this looks like, this is the the provider object returned 
   clientSecret: ''
 }
 ```
+
 You can replace all the options in this JSON object with the ones from your custom provider – be sure to give it a unique ID and specify the correct OAuth version - and add it to the providers option:
 
 ```js title="/pages/api/auth/[...nextauth].js"

@@ -92,7 +92,7 @@ export default Page
 #### Using getSession() in API routes
 
 You can also get the session object in Next.js API routes:
- 
+
 ```js
 import { session } from 'next-auth/client'
 
