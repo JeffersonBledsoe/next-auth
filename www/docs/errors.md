@@ -62,6 +62,7 @@ The Email authentication provider can only be used if a database is configured.
 The Credentials authentication provider can only be used if JSON Web Tokens are used for sessions.
 
 #### CALLBACK_CREDENTIALS_HANDLER_ERROR
+
 ---
 
 ### Session Handling
