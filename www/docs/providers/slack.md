@@ -5,11 +5,11 @@ title: Slack
 
 ## API Documentation
 
-https://api.slack.com
+<https://api.slack.com>
 
 ## App Configuration
 
-https://api.slack.com/apps
+<https://api.slack.com/apps>
 
 ## Usage
 

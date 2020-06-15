@@ -5,7 +5,7 @@ title: Okta
 
 ## API Documentation
 
-https://developer.okta.com/docs/reference/api/oidc
+<https://developer.okta.com/docs/reference/api/oidc>
 
 ## App Configuration
 

@@ -140,5 +140,5 @@ const text = ({ url, siteName }) => `Sign in to ${siteName}\n${url}\n\n`
 ```
 
 :::tip
-If you want to generate email-client compatible HTML from React, check out https://mjml.io
+If you want to generate email-client compatible HTML from React, check out <https://mjml.io>
 :::

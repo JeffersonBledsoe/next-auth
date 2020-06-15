@@ -5,12 +5,11 @@ title: Apple
 
 ## API Documentation
 
-https://developer.apple.com/sign-in-with-apple/get-started/
-
+<https://developer.apple.com/sign-in-with-apple/get-started/>
 
 ## App Configuration
 
-https://developer.apple.com/account/resources/identifiers/list/serviceId
+<https://developer.apple.com/account/resources/identifiers/list/serviceId>
 
 ## Usage
 

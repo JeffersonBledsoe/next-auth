@@ -5,11 +5,11 @@ title: Auth0
 
 ## API Documentation
 
-https://auth0.com/docs/api/authentication#authorize-application
+<https://auth0.com/docs/api/authentication#authorize-application>
 
 ## App Configuration
 
-https://manage.auth0.com/dashboard
+<https://manage.auth0.com/dashboard>
 
 ## Usage
 

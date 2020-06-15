@@ -5,11 +5,11 @@ title: Facebook
 
 ## API Documentation
 
-https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/
+<https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/>
 
 ## App Configuration
 
-https://developers.facebook.com/apps/
+<https://developers.facebook.com/apps/>
 
 ## Usage
 

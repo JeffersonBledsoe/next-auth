@@ -5,11 +5,11 @@ title: GitHub
 
 ## API Documentation
 
-https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps
+<https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps>
 
 ## App Configuration
 
-https://github.com/settings/apps
+<https://github.com/settings/apps>
 
 ## Usage
 

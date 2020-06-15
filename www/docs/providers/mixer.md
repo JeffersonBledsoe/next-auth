@@ -5,11 +5,11 @@ title: Mixer
 
 ## API Documentation
 
-https://dev.mixer.com/reference/oauth
+<https://dev.mixer.com/reference/oauth>
 
 ## App Configuration
 
-https://mixer.com/lab/oauth
+<https://mixer.com/lab/oauth>
 
 ## Usage
 

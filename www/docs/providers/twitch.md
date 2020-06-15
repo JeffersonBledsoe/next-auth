@@ -5,11 +5,11 @@ title: Twitch
 
 ## API Documentation
 
-https://dev.twitch.tv/docs/authentication
+<https://dev.twitch.tv/docs/authentication>
 
 ## App Configuration
 
-https://dev.twitch.tv/console/apps
+<https://dev.twitch.tv/console/apps>
 
 ## Usage
 

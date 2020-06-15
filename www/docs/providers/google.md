@@ -5,11 +5,11 @@ title: Google
 
 ## API Documentation
 
-https://developers.google.com/identity/protocols/oauth2
+<https://developers.google.com/identity/protocols/oauth2>
 
 ## App Configuration
 
-https://console.developers.google.com/apis/credentials
+<https://console.developers.google.com/apis/credentials>
 
 ## Usage
 
