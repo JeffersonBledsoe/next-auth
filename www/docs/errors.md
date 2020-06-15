@@ -15,11 +15,11 @@ If you are seeing any of these errors in the console, something is wrong.
 
 These errors are returned from the client. As the client is [Universal JavaScript (or "Isomorphic JavaScript")](https://en.wikipedia.org/wiki/Isomorphic_JavaScript) it can be run on the client or server, so these errors can occur in both in the terminal and in the browser console.
 
-#### CLIENT_USE_SESSION_ERROR
+### CLIENT_USE_SESSION_ERROR
 
-#### CLIENT_FETCH_ERROR
+### CLIENT_FETCH_ERROR
 
-#### CLIENT_COOKIE_PARSE_ERROR
+### CLIENT_COOKIE_PARSE_ERROR
 
 ---
 

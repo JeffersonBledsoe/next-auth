@@ -89,7 +89,7 @@ Page.getInitialProps = async (context) => {
 export default Page
 ```
 
-#### Using getSession() in API routes
+### Using getSession() in API routes
 
 You can also get the session object in Next.js API routes:
 
@@ -156,7 +156,7 @@ Using the `signin()` method ensures the user ends back on the page they started 
 
 The `signin()` method can be called from the client in different ways, as shown below.
 
-#### Redirects to sign in page when clicked
+### Redirects to sign in page when clicked
 
 ```js
 import { signin } from 'next-auth/client'
@@ -166,7 +166,7 @@ export default () => (
 )
 ```
 
-#### Starts Google OAuth sign-in flow when clicked
+### Starts Google OAuth sign-in flow when clicked
 
 ```js
 import { signin } from 'next-auth/client'
@@ -176,7 +176,7 @@ export default () => (
 )
 ```
 
-#### Starts Email sign-in flow when clicked
+### Starts Email sign-in flow when clicked
 
 When using it with the email flow, pass the target `email` as an option.
 
