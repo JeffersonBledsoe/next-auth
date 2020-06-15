@@ -33,8 +33,8 @@ The Email Provider can be used with both JSON Web Tokens and database sessions, 
   Create an .env file to the root of your project and add the connection string and email address.
 
   ```js title=".env" {1}
-	EMAIL_SERVER=smtp://username:password@smtp.example.com:587
-	EMAIL_FROM=noreply@example.com
+  EMAIL_SERVER=smtp://username:password@smtp.example.com:587
+  EMAIL_FROM=noreply@example.com
   ```
 
   Now you can add the email provider like this:
@@ -56,8 +56,8 @@ The Email Provider can be used with both JSON Web Tokens and database sessions, 
   EMAIL_SERVER_USER=username
   EMAIL_SERVER_PASSWORD=password
   EMAIL_SERVER_HOST=smtp.example.com
-	EMAIL_SERVER_PORT=587
-	EMAIL_FROM=noreply@example.com
+  EMAIL_SERVER_PORT=587
+  EMAIL_FROM=noreply@example.com
   ```
 
   Now you can add the provider settings to the NextAuth options object in the Email Provider.
