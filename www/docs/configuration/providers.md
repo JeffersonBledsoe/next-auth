@@ -52,7 +52,7 @@ NextAuth.js is designed to work with any OAuth service, it supports OAuth 1.0, 1
   TWITTER_SECRET=YOUR_TWITTER_CLIENT_SECRET
   ```
 
-4. Now you can add the provider settings to the NextAuth options object. You can add as many OAuth providers as you like, as you can see `providers` is an array. 
+4. Now you can add the provider settings to the NextAuth options object. You can add as many OAuth providers as you like, as you can see `providers` is an array.
 
   ```js title="/pages/api/auth/[...nextauth].js"
   ...
@@ -64,7 +64,8 @@ NextAuth.js is designed to work with any OAuth service, it supports OAuth 1.0, 1
   ],
   ...
   ```
-5. Once a provider has been setup, you can sign in at the following URL: `[origin]/api/auth/signin`. This is an unbranded auto-generated page with all the configured providers.   
+
+5. Once a provider has been setup, you can sign in at the following URL: `[origin]/api/auth/signin`. This is an unbranded auto-generated page with all the configured providers.
 
 <Image src="/img/signin.png" alt="Signin Screenshot" />
 
@@ -157,7 +158,7 @@ Configuration is similar to other providers, but the options are different:
 ```js title="/pages/api/auth/[...nextauth].js"
 providers: [
   Providers.Email({
-    server: process.env.EMAIL_SERVER, 
+    server: process.env.EMAIL_SERVER,
     from: process.env.EMAIL_FROM,
     // maxAge: 24 * 60 * 60, // How long email links are valid for (default 24h)
   }),

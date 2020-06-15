@@ -31,7 +31,7 @@ If a user first signs in with OAuth then their email address is automatically po
 This provides a way to contact users and for users to maintain access to their account and sign in using email in the event they are unable to sign in with the OAuth provider in future (if email sign in is configured).
 :::
 
-### Account 
+### Account
 
 Table: `accounts`
 

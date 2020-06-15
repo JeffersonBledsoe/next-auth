@@ -16,7 +16,7 @@ The only *required* options are **site** and **providers**.
 * **Default value**: `empty string`
 * **Required**: *Yes*
 
-#### Description 
+#### Description
 
 The fully qualified URL for the root of your site.
 
@@ -29,7 +29,7 @@ e.g. `http://localhost:3000` or `https://www.example.com`
 * **Default value**: `[]`
 * **Required**: *Yes*
 
-#### Description 
+#### Description
 
 An array of authentication providers for signing in (e.g. Google, Facebook, Twitter, GitHub, Email, etc) in any order. This can be one of the built-in providers or an object with a custom provider.
 
@@ -42,7 +42,7 @@ See the [providers documentation](/options/providers) for a list of supported pr
 * **Default value**: `null`
 * **Required**: *No* (Except by Email provider)
 
-#### Description 
+#### Description
 
 A database connection string or [TypeORM](https://github.com/typeorm/typeorm/blob/master/docs/using-ormconfig.md) configuration object.
 
@@ -89,14 +89,14 @@ session: {
   // Use JSON Web Tokens for session instead of database sessions.
   // This option can be used with or without a database for users/accounts.
   // Note: `jwt` is automatically set to `true` if no database is specified.
-  jwt: false, 
+  jwt: false,
   
   // Seconds - How long until an idle session expires and is no longer valid.
   maxAge: 30 * 24 * 60 * 60, // 30 days
   
   // Seconds - Throttle how frequently to write to database to extend a session.
   // Use it to limit write operations. Set to 0 to always update the database.
-  // Note: This option is ignored if using JSON Web Tokens 
+  // Note: This option is ignored if using JSON Web Tokens
   updateAge: 24 * 60 * 60, // 24 hours
 }
 ```
@@ -144,8 +144,8 @@ An example JSON WebToken contains an encrypted payload like this:
     image: 'https://example.com/image.jpg',
     id: 1 // User ID will note be specified if used without a database
   },
-  // The account object stores details for the authentication provider account 
-  // that was used to sign in. It only contains exactly one account, even the 
+  // The account object stores details for the authentication provider account
+  // that was used to sign in. It only contains exactly one account, even the
   // user is linked to multiple provider accounts in a database.
   account: {
     provider: 'google',

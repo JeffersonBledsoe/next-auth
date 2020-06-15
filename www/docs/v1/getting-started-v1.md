@@ -219,6 +219,6 @@ It includes configuration examples for Facebook, Google and Twitter oAuth, which
 
 For tips on configuring oAuth see [AUTHENTICATION.md](https://github.com/iaincollins/next-auth/tree/master/AUTHENTICATION.md).
 
----- 
+----
 
 See the included [example site](https://github.com/iaincollins/next-auth/tree/master/example) and the expanded example at [nextjs-starter.now.sh](https://nextjs-starter.now.sh/examples/authentication).

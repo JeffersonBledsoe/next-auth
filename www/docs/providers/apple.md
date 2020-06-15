@@ -25,7 +25,7 @@ import Providers from `next-auth/providers`
 providers: [
   Providers.Apple({
     clientId: process.env.APPLE_ID,
-    clientSecret: { 
+    clientSecret: {
       appleId: process.env.APPLE_ID,
       teamId: process.env.APPLE_TEAM_ID,
       privateKey: process.env.APPLE_PRIVATE_KEY,
@@ -39,7 +39,7 @@ providers: [
 :::tip
 
   Mac
- 
+
   Convert your apple key to a single line to use as a enviroment variable.
   ```bash
   awk 'NF {sub(/\r/, ""); printf "%s\\n",$0;}'  AuthKey_ID.k8
@@ -49,7 +49,7 @@ providers: [
   
   ```powershell
  $k8file = "AuthKey_ID.k8"
-(Get-Content "C:\Users\$env:UserName\Downloads\${k8file}") -join "\n" 
+(Get-Content "C:\Users\$env:UserName\Downloads\${k8file}") -join "\n"
 ```
   
 :::
@@ -127,7 +127,7 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
 
 :::tip
 On Windows?  
-The OpenSSL executable is distributed with [Git](https://git-scm.com/download/win]9) for Windows. 
+The OpenSSL executable is distributed with [Git](https://git-scm.com/download/win]9) for Windows.
 Once installed you will find the openssl.exe file in `C:/Program Files/Git/mingw64/bin` which you can add to the system PATH environment variable if it’s not already done.
 
 Add environment variable `OPENSSL_CONF=C:/Program Files/Git/mingw64/ssl/openssl.cnf`
