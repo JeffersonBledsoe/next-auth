@@ -86,7 +86,7 @@ When configuring your database you also need to install an appropriate **node mo
 Install module:
 `npm i sqlite3`
 
-#### Example
+#### Example SQLite Configuration
 
 ```js
 database: 'sqlite://localhost/:memory:?synchronize=true'
@@ -97,7 +97,7 @@ database: 'sqlite://localhost/:memory:?synchronize=true'
 Install module:
 `npm i mysql`
 
-#### Example
+#### Example MySQL Configuration
 
 ```js
 database: 'mysql://username:password@127.0.0.1:3306/database_name?synchronize=true'
@@ -108,7 +108,7 @@ database: 'mysql://username:password@127.0.0.1:3306/database_name?synchronize=tr
 Install module:
 `npm i mariadb`
 
-#### Example
+#### Example MariaDB Configuration
 
 ```js
 database: 'mariadb://username:password@127.0.0.1:3306/database_name?synchronize=true'
@@ -119,7 +119,7 @@ database: 'mariadb://username:password@127.0.0.1:3306/database_name?synchronize=
 Install module:
 `npm i pg`
 
-#### Example
+#### Example Postgres Configuration
 
 ```js
 database: 'postgres://username:password@127.0.0.1:3306/database_name?synchronize=true'
