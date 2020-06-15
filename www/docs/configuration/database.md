@@ -157,4 +157,3 @@ You can customize, extend or replace the models, you can do this by using the 'a
 :::note
 See the [documentation for adapters](/schemas/adapters) for more information on advanced configuration, including how to use NextAuth.js with any database.
 :::
-

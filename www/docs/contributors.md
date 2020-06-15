@@ -42,4 +42,3 @@ Special thanks to Lori Karikari for creating most of the OAuth providers and to 
 * [Joel M (9oelM)](https://github.com/9oelM)
 
 *Last updated: 29 May 2020.*
-

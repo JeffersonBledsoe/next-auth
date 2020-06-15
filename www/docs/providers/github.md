@@ -25,5 +25,5 @@ providers: [
 ...
 
 :::warning
-Only allows one callback URL. May not return email address if privacy enabled. 
+Only allows one callback URL. May not return email address if privacy enabled.
 :::

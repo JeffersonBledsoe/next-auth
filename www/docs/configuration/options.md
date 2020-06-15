@@ -402,4 +402,4 @@ cookies: {
 
 :::warning
 Changing the cookie options may introduce security flaws into your application and may break NextAuth.js integration now or in a future update. Using this option is not recommended.
-:::
+::
